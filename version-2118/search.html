@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜索影片-今日推荐影视</title>
+    <meta name="description" content="搜索今日推荐影视片库中的国产影视、高清电影、电视剧和多类型影片内容。">
+    <meta name="keywords" content="热播国产影视在线看 _ 高清免费电影片库大全_今日推荐影视,国产,视频,免费,在线观看,高清,影视大全,搜索,筛选">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+        <a class="brand" href="index.html" aria-label="今日推荐影视">
+            <span class="brand-icon" aria-hidden="true">▶</span>
+            <span class="brand-name">今日推荐影视</span>
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+            <a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类浏览</a><a class="nav-link" href="rankings.html">排行榜</a><a class="nav-link active" href="search.html">搜索影片</a>
+        </nav>
+        <form class="nav-search" data-search-form data-search-url="search.html">
+            <input type="search" name="q" placeholder="搜索电影电视剧" autocomplete="off">
+            <button type="submit" aria-label="搜索">⌕</button>
+        </form>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-label="展开菜单">☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <form class="mobile-search" data-search-form data-search-url="search.html">
+            <input type="search" name="q" placeholder="搜索电影电视剧" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <nav class="mobile-nav" aria-label="移动端导航">
+            <a class="mobile-link" href="index.html">首页</a><a class="mobile-link" href="categories.html">分类浏览</a><a class="mobile-link" href="rankings.html">排行榜</a><a class="mobile-link active" href="search.html">搜索影片</a>
+        </nav>
+    </div>
+</header>
+<main>
+<section class="page-hero search-hero">
+    <div class="container narrow-container">
+        <p class="eyebrow">搜索影片</p>
+        <h1>搜索电影、电视剧与片库内容</h1>
+        <form class="search-page-form" data-search-page-form>
+            <input id="search-input" type="search" placeholder="输入影片名、地区、类型或标签" autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <div class="quick-tags">
+            <button type="button" data-search-chip="国产">国产</button>
+            <button type="button" data-search-chip="高清">高清</button>
+            <button type="button" data-search-chip="爱情">爱情</button>
+            <button type="button" data-search-chip="战争">战争</button>
+            <button type="button" data-search-chip="悬疑">悬疑</button>
+        </div>
+    </div>
+</section>
+<section class="content-section container">
+    <div id="search-title" class="search-title">输入关键词查找影片</div>
+    <div id="search-results" class="movie-grid small-grid"></div>
+    <div id="search-empty" class="empty-filter" hidden>未找到相关影片</div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="container footer-grid">
+        <div>
+            <a class="footer-brand" href="index.html"><span>▶</span>今日推荐影视</a>
+            <p>热播国产影视在线看，汇聚高清免费电影片库、今日推荐影视和多类型剧集内容。</p>
+        </div>
+        <div>
+            <h2>快速入口</h2>
+            <a href="categories.html">分类浏览</a>
+            <a href="rankings.html">人气排行榜</a>
+            <a href="search.html">搜索影片</a>
+        </div>
+        <div>
+            <h2>热门分类</h2>
+            <a href="category/today-recommend.html">今日推荐</a>
+            <a href="category/guochan-theater.html">国产剧场</a>
+            <a href="category/top-picks.html">口碑片单</a>
+        </div>
+        <div>
+            <h2>片库特色</h2>
+            <p>内容更新快，题材覆盖广，支持电脑与手机浏览，详情页提供剧情简介、精彩影评和相关推荐。</p>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 今日推荐影视. 高清影视内容推荐平台</div>
+</footer>
+    <script src="assets/js/search-data.js"></script>
+    <script src="assets/js/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
